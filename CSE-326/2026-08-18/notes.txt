@@ -1,0 +1,88 @@
+HTML
+----
+
+HTML stands for HyperText Markup Language.
+
+- Created by Tim Berners-Lee
+- Introduced in 1991
+
+XHTML
+-----
+
+XHTML stands for Extensible HyperText Markup Language.
+
+- XHTML is a stricter version of HTML based on XML rules.
+- XHTML 1.0 was introduced in 2000.
+
+Introduction to Web Technology
+-------------------------------
+
+Web technology consists of different technologies that work together to
+build modern websites and web applications.
+
+Main Technologies:
+
+HTML        → Structure
+CSS         → Styling
+JavaScript  → Interactivity
+Bootstrap   → Responsive design
+React       → JavaScript library for building user interfaces
+Node.js     → Backend/runtime environment
+Express.js  → Web framework for Node.js
+MySQL       → Database
+
+WordPress
+---------
+
+Homework: Study WordPress.
+
+Client-Side Technologies
+------------------------
+
+Client-side technologies run mainly in the user's web browser.
+
+- HTML
+- CSS
+- JavaScript
+- React → Front-end library
+
+Server-Side Technologies
+------------------------
+
+Server-side technologies run on the server.
+
+Languages:
+- PHP
+
+Database:
+- MySQL
+
+Server Software:
+- Nginx
+
+Protocols
+---------
+
+HTTP / HTTPS     → Communication between client and server
+FTP / SFTP       → File transfer
+WebSockets       → Real-time, two-way communication
+
+Client-Server Communication
+---------------------------
+
+The basic communication process is:
+
+Client
+   ↓
+HTTP Request
+   ↓
+Server
+   ↓
+HTTP Response
+   ↓
+Client
+
+In simple terms:
+
+Client → sends an HTTP request → Server
+Server → sends an HTTP response → Client
