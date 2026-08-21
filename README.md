@@ -3,10 +3,10 @@
 
 Welcome to my B.Tech CSE notes repository.
 
-## Subjects
+## 📚 Subjects
 
-- CSE 326
-- INT 108
+- [CSE 326](./CSE-326/)
+- [INT 108](./INT-108/)
 
 ## About
 
