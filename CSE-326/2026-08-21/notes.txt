@@ -1,0 +1,43 @@
+1. CREATE HTML FILE
+   Open VS Code.
+   Create a new file.
+   Save it as index.html.
+
+2. ! SHORTCUT
+   Type ! in the HTML file.
+   Press Enter.
+   VS Code creates the basic HTML structure.
+
+3. BASIC STRUCTURE
+   <!DOCTYPE html> → Defines HTML5.
+   <html> → Contains the whole HTML document.
+   <head> → Contains page information.
+   <title> → Sets the browser tab title
+   <body> → Contains visible webpage content.
+
+4. TAG
+   Tags are used to define webpage content.
+   Example: <h1>Hello</h1>
+
+5. HEADINGS
+   <h1> → Largest heading.
+   <h2> → Second heading.
+   <h3> → Third heading.
+   <h4> → Fourth heading.
+   <h5> → Fifth heading.
+   <h6> → Smallest heading.
+
+6. PARAGRAPH
+   <p> → Creates a paragraph.
+   Example: <p>Hello</p>
+
+7. MARQUEE
+   <marquee> → Moves text.
+   direction="right" → Moves text to the right.
+   direction="up" → Moves text upward.
+   scrollamount="25" → Changes scrolling speed.
+
+8. FONT
+   <font> → Changes text appearance.
+   size="7" → Sets text size.
+   color="red" → Sets text color.
