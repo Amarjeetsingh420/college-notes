@@ -1,0 +1,448 @@
+HTML5 NOTES
+===========
+
+1. UTF
+-------
+
+UTF stands for Unicode Transformation Format.
+
+UTF is a character encoding system used to represent Unicode characters.
+
+Common UTF formats:
+- UTF-8
+- UTF-16
+- UTF-32
+
+In HTML5, UTF-8 is commonly used:
+
+<meta charset="UTF-8">
+
+
+2. HTML5
+--------
+
+HTML5 is the modern version of HTML used to create and structure web pages.
+
+Main features of HTML5:
+
+1. Semantic Tags
+   HTML5 provides semantic elements that clearly describe their purpose.
+
+   Examples:
+   <header>
+   <nav>
+   <section>
+   <article>
+   <footer>
+
+2. Multimedia Support
+   HTML5 provides built-in support for:
+   - Audio
+   - Video
+   - Canvas
+
+   Example:
+   <audio controls>
+       <source src="music.mp3" type="audio/mpeg">
+   </audio>
+
+   <video controls>
+       <source src="video.mp4" type="video/mp4">
+   </video>
+
+3. Forms
+   HTML5 provides new input types and built-in form validation.
+
+   Examples:
+   <input type="email">
+   <input type="number">
+   <input type="date">
+   <input type="password">
+   <input type="tel">
+
+4. Faster and More Efficient
+   HTML5 provides better support for modern web applications and
+   multimedia without requiring many external plugins.
+
+
+3. <abbr> TAG
+-------------
+
+The <abbr> tag is used to represent an abbreviation.
+
+Example:
+
+<p>
+    The <abbr title="World Health Organization">WHO</abbr>
+    is a specialized agency of the United Nations.
+</p>
+
+The title attribute gives the full meaning of the abbreviation.
+
+
+4. <dfn> TAG
+------------
+
+The <dfn> tag is used to indicate a term that is being defined.
+
+Example:
+
+<p>
+    The <dfn title="HyperText Markup Language">HTML</dfn>
+    is the standard markup language for creating web pages.
+</p>
+
+
+5. <blockquote> TAG
+-------------------
+
+The <blockquote> tag is used for a long quotation from another source.
+
+Example:
+
+<blockquote cite="https://www.example.com/article">
+    <p>
+        This is a blockquote example. It is used to indicate
+        that the enclosed text is an extended quotation.
+    </p>
+</blockquote>
+
+The cite attribute specifies the source of the quotation.
+
+
+6. <b> TAG
+----------
+
+The <b> tag makes text visually bold.
+
+Example:
+
+<p>
+    The <b>HTML</b> is the standard markup language for creating web pages.
+</p>
+
+Note:
+<b> is mainly used for stylistic bold text.
+
+
+7. <strong> TAG
+---------------
+
+The <strong> tag indicates that the text has strong importance.
+
+Example:
+
+<p>
+    The <strong>HTML</strong> is the standard markup language for creating web pages.
+</p>
+
+Difference between <b> and <strong>:
+- <b>      -> Makes text visually bold.
+- <strong> -> Indicates strong importance and normally appears bold.
+
+
+8. EMPTY / VOID TAGS
+--------------------
+
+Void elements do not have a closing tag and normally do not contain content.
+
+Examples:
+
+<br>
+<hr>
+<img>
+<input>
+
+<br>
+Creates a line break.
+
+<hr>
+Creates a horizontal line.
+
+<img>
+Displays an image.
+
+Example:
+<img src="image.jpg" alt="Example Image">
+
+<input>
+Creates an input field.
+
+Example:
+<input type="text">
+
+Note:
+In HTML5, these are generally called "void elements" rather than
+"self-closing tags".
+
+
+9. HTML ATTRIBUTES
+------------------
+
+Attributes provide additional information about HTML elements.
+
+Common attributes:
+- id
+- class
+- style
+- src
+- href
+- target
+
+Example:
+
+<a href="https://www.example.com" target="_blank">
+    Visit Example
+</a>
+
+In the example:
+- href = attribute
+- "https://www.example.com" = value
+- target = attribute
+- "_blank" = value
+
+General syntax:
+
+<tag attribute="value">
+
+
+10. HTML LISTS
+--------------
+
+HTML provides three main types of lists:
+
+1. Ordered List  -> <ol>
+2. Unordered List -> <ul>
+3. Description List -> <dl>
+
+
+11. ORDERED LIST <ol>
+---------------------
+
+An ordered list displays items with numbers by default.
+
+Example:
+
+<ol>
+    <li>First item</li>
+    <li>Second item</li>
+    <li>Third item</li>
+</ol>
+
+Output:
+
+1. First item
+2. Second item
+3. Third item
+
+
+ORDERED LIST TYPE ATTRIBUTE
+---------------------------
+
+The type attribute changes the numbering style.
+
+type="1"
+Numbers:
+1, 2, 3
+
+Example:
+<ol type="1">
+    <li>First item</li>
+    <li>Second item</li>
+    <li>Third item</li>
+</ol>
+
+
+type="A"
+Uppercase letters:
+A, B, C
+
+
+type="a"
+Lowercase letters:
+a, b, c
+
+
+type="I"
+Uppercase Roman numerals:
+I, II, III
+
+
+type="i"
+Lowercase Roman numerals:
+i, ii, iii
+
+
+Quick Revision:
+
+type="1" -> 1, 2, 3
+type="A" -> A, B, C
+type="a" -> a, b, c
+type="I" -> I, II, III
+type="i" -> i, ii, iii
+
+
+12. START ATTRIBUTE
+-------------------
+
+The start attribute specifies the starting number of an ordered list.
+
+Example:
+
+<ol start="5">
+    <li>Fifth item</li>
+    <li>Sixth item</li>
+    <li>Seventh item</li>
+</ol>
+
+Output:
+
+5. Fifth item
+6. Sixth item
+7. Seventh item
+
+
+13. REVERSED ATTRIBUTE
+----------------------
+
+The reversed attribute displays an ordered list in descending order.
+
+Example:
+
+<ol reversed>
+    <li>First item</li>
+    <li>Second item</li>
+    <li>Third item</li>
+</ol>
+
+Output:
+
+3. First item
+2. Second item
+1. Third item
+
+
+14. UNORDERED LIST <ul>
+-----------------------
+
+An unordered list displays items using bullet points.
+
+Example:
+
+<ul>
+    <li>First item</li>
+    <li>Second item</li>
+    <li>Third item</li>
+</ul>
+
+Output:
+
+- First item
+- Second item
+- Third item
+
+
+UNORDERED LIST BULLET TYPES
+---------------------------
+
+disc
+Filled circular bullet points.
+
+circle
+Hollow circular bullet points.
+
+square
+Square bullet points.
+
+Example:
+
+<ul type="disc">
+    <li>First item</li>
+    <li>Second item</li>
+</ul>
+
+
+Quick Revision:
+
+disc   -> ●
+circle -> ○
+square -> ■
+
+Important:
+The type attribute on <ul> is obsolete in modern HTML5.
+CSS list-style-type is preferred for controlling bullet appearance.
+For traditional HTML questions, remember disc, circle, and square.
+
+
+15. DESCRIPTION LIST <dl>
+-------------------------
+
+A description list is used for terms and their descriptions.
+
+Important tags:
+- <dl> -> Description List
+- <dt> -> Description Term
+- <dd> -> Description/Definition
+
+Example:
+
+<dl>
+    <dt>HTML</dt>
+    <dd>Used to create the structure of web pages.</dd>
+
+    <dt>CSS</dt>
+    <dd>Used to design and style web pages.</dd>
+
+    <dt>JavaScript</dt>
+    <dd>Used to make web pages interactive.</dd>
+</dl>
+
+
+QUICK REVISION
+==============
+
+HTML5
+  - Semantic tags
+  - Multimedia: audio, video, canvas
+  - Forms: input types and validation
+  - Faster and more efficient
+
+Text-related tags
+  - <abbr>       -> Abbreviation
+  - <dfn>        -> Term being defined
+  - <blockquote> -> Long quotation
+  - <b>          -> Bold appearance
+  - <strong>     -> Strong importance
+
+Void elements
+  - <br>
+  - <hr>
+  - <img>
+  - <input>
+
+Common attributes
+  - id
+  - class
+  - style
+  - src
+  - href
+  - target
+
+Lists
+  - <ol> -> Ordered List
+  - <ul> -> Unordered List
+  - <dl> -> Description List
+
+Ordered List
+  - type="1" -> Numbers
+  - type="A" -> Uppercase letters
+  - type="a" -> Lowercase letters
+  - type="I" -> Uppercase Roman numerals
+  - type="i" -> Lowercase Roman numerals
+  - start="5" -> Starts from 5
+  - reversed -> Descending order
+
+Unordered List
+  - disc
+  - circle
+  - square
