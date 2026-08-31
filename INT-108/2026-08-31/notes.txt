@@ -1,0 +1,18 @@
+data type ---->
+    mutable data type:
+        - list
+            -list are mutable data types because we can change the values of a list after it has been created.
+            -[] or list()
+        - dictionary
+            -dictionary are mutable data types because we can change the values of a dictionary after it has been created.
+            -{} or dict()
+        - set
+            -set are mutable data types because we can change the values of a set after it has been created.
+            -{} or set()
+    immutable data type:
+        - string
+            -string are immutable data types because we cannot change the values of a string after it has been created.
+            -"" or str()
+        - tuple
+            -tuple are immutable data types because we cannot change the values of a tuple after it has been created.
+            -() or tuple()
