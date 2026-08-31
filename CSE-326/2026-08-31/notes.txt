@@ -1,0 +1,30 @@
+description list (<dl>)
+--> dt -> description term
+--> dd -> description definition
+
+Hyperlink
+<a> (Anchor) tag
+<a href="Url"> List Text </a>
+eg:-- <a href="https://www.google.com">visit Google</a>
+internal link:
+<a href="#section1">Go to Section 1</a>
+external link:
+<a href="https://www.google.com">visit Google</a>
+email link:
+<a href="mailto:student@gmail.com">send email</a>
+phone link:
+<a href="tel:+1234567890">call us</a>
+self link:
+<a href="https://www.google.com" target="_self">open Google in same tab</a>
+blank link:
+<a href="https://www.google.com" target="_blank">open Google in new tab</a>
+relative link:
+<a href="page2.html">Go to Page 2</a>
+absolute link:
+<a href="https://www.example.com/page2.html">Go to Page 2</a>
+
+svg (Scalable Vector Graphics)
+2d graphics directly in HTML using XML.
+Unlike JPG or PNG, SVG is based on code/math, not pixels.
+
+
