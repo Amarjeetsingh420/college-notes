@@ -6,8 +6,6 @@ if(type(a)==int and type(b)==int and type(c)==int):
         print("equilateral")
     elif (a!=b and b!=c and c!=a):
         print("scalene")
-    elif (b<=a and b<=c):
-        print( b,"is greatest")
     elif (a==b or b==c or c==a):
         print("isosceles")
 else:
