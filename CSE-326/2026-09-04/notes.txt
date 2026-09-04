@@ -1,0 +1,6 @@
+svg ---> circles, rectangle, lines, logoes
+  for circle:
+seo --> to place your web at search top
+
+
+#one recomendation from my side video cannot play however you do every thing correct, In thise case simply see your web on chrome broser instide of vs code broser.
