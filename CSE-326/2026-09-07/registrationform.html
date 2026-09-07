@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Student Resistration Form</h2>
+
+    <form>
+
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="Name">
+        <br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" name="Email" id="email">
+        <br><br>
+
+        <label for="phone">phone:</label>
+        <input type="tel" id="phone" name="phone">
+        <br></br>
+
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">female</label>
+
+        <br><br>
+
+        <label for="course">course:</label>
+        <select name="course" id="course">
+            <option value="btech-cse">B. Tech CSE</option>
+            <option value="btech-ese">B. Tech ESE</option>
+            <option value="btech me">B. Tech ME</option>
+            <option value="bca">BCA</option>
+        </select>
+
+        <br><br>
+        
+        <label for="address">Address:</label>
+        <br>
+        <textarea name="address" id="address" rows="8" cols="50"></textarea>
+
+        <br><br>
+
+        <button type="submit">Resister</button>
+        <button type="reset">clear</button>
+    </form>
+</body>
+</html>
