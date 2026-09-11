@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Student Registration Form</h1>
+<form>
+    <label for="name">Full Name: </label>
+    <input type="text" id="name" name="Name">
+    <br><br>
+
+    <label for="email" id="email" name="Email">Email:</label>
+    <input type="email" id="email" name="Email">
+    <br><br>
+
+    <label for="password">Password:</label>
+    <input type="password" required id="password" name="Password" minlength="6">
+    <br><br>
+
+    <label for="gender">Gender:</label>
+
+    <input type="radio" id="male" name="Male">
+    <label for="male">Male</label>
+
+    <input type="radio" id="female" name="Female">
+    <label for="female">Female</label>
+    <br><br>
+
+    <label for="courses">courses</label>
+    <select name="courses" id="courses">
+        <option value="btech-cse">btech-cse</option>
+        <option value="mtech-cse">mtech-cse</option>
+        <option value="bca">bca</option>
+    </select>
+    <br><br>
+
+    <label for="address">Addres</label>
+    <textarea id="address" name="Address" cols="57" rows="8"></textarea>
+
+    <button type="submit">submit</button>
+    <button type="reset">reset</button>
+    </form>
+</body>
+</html>
