@@ -1,0 +1,34 @@
+pcss 
+-> style a web page
+-> Cascading Style Sheets
+->control the layout of multiple web page at once
+->External style Sheets stored in css files
+
+types of css
+->inline-useing style attribute inside html elements
+->intetnal-using <style> element in <head>
+->External-using link
+
+inline css
+for one element
+<p style=:color: red; font-size: 42px;">hello world</p>
+
+internal css
+for one web-page
+<head>
+    <style>
+        .greeting {
+            color: #0284c7;
+            font-size: 22px;
+            font-family: "Poppins', sans-serif;
+        }
+    </style>
+<head/>
+
+External css
+for many web-pages
+.card-text {
+    color: #16a34a;
+    font-size: 20px;
+    border-bottom: 2px solid #161341;
+}
