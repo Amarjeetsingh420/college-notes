@@ -1,0 +1,9 @@
+css element selector
+css id selector
+css class selector
+css universal selector
+css grouping selector
+attribute selector
+descendant combinator
+pseudo-class(:first-child)
+pseudo-element
