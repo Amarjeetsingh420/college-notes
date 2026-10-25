@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      let name = "papjpap"
+      let a = true
+      let len = name.length;
+      for(let i = 0; i<Math.floor(len/2); i++){
+        if(name[i] !== name[len-i-1]){
+          a = false
+          break;
+        }
+      }
+      document.write(a ? "palindrome" : "not a palindrome")
+    </script>
+  </body>
+</html>

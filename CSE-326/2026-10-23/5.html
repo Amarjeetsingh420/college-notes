@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let num1 = 0
+        let num2 = 1
+        let userinput = 4
+        let i = 1
+        while(i<=(userinput-1)){
+            let sum = num1 + num2
+            i++
+            num1 = num2
+            num2 = sum
+        }
+        document.write(num1)
+    </script>
+</body>
+</html>
