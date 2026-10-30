@@ -1,0 +1,8 @@
+defer => html atribut use to script tag to downlod the js fill and run html once it finishes
+
+let variableName = value;
+let studentName = "Aman";
+
+let - declare the variable.
+studentName - the variable's name.
+= - assignation operator
