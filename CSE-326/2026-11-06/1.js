@@ -16,3 +16,4 @@ student.marks=95;
 delete student.age;
 //display modified object
 console.log(student)
+//important manupulation method

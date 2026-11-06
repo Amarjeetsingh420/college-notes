@@ -1,0 +1,66 @@
+console.log() -->
+ display output in the browser console
+ mainly used to debuging
+ mostly used by the developer
+ to see output and open developer tools
+document.write() --->
+ used to write and add content to webpage
+ used to simple demonstration and learning porpuses
+
+data types in javascript --->
+    in javascript, data types of value of variale can store. javascript has two categoris of data types: Primitive and non-Primitive data types.
+Primitive data type -->
+ -Number
+ -string
+ -Boolean
+ -Undefined
+ -Bigint
+ -symbol
+Non-Primitive data type
+ - Object
+ - Array
+ - Function
+
+
+let age = 25; //Number
+let name = "varsha"; //string
+let isStudent = true; //Boolean
+let address; //Undefined
+let salary = null; //Null
+let marks = [80,90,95]; //Array
+let student = {
+    name: "Aman"
+    class: 12           //Object
+}
+
+operators and its type --->
+arthematic -->
+    +,-,*,/,**
+Assignment -->
+    =,+=,-=,*=
+Comparison -->
+    ==,===,!=,<,>,>=,<=
+Logical -->
+    &&, ||, !
+increasement and decreasement -->
+    ++,--
+ternary -->
+    ?,:
+
+Expression -->
+it is a combination of values,and operators that produces a result.
+
+Object and Object manupulation -->
+An object in javascript is a collection of properties stored as key-value pairs. it is used to store data about somting.
+
+let student = {
+    name: "Aman",
+    age: 20,
+    course: "computer science",
+    marks: 85
+}
+Here name,age,course and marks are properties and their corresponding values are "aman",20,"computer science" and 85.
+
+console.log(student.name);
+console.log(student.age);
+console.log(student["course"])

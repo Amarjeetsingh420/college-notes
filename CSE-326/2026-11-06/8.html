@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3> Odd or Even number Checker </h3>
+    <input type="number" id="num" placeholder="enter your number">
+    <button onclick="Checknumber()">Checknumber</button>
+    <div id="result"></div>
+    <script>
+        function Checknumber(){
+        let number = document.getElementById("num").value
+        if(number % 2 === 0){
+            document.getElementById("result").innerHTML = "Even number"
+        }
+        else{
+            document.getElementById("result").innerHTML= "odd number"
+        }}
+    </script>
+</body>
+</html>

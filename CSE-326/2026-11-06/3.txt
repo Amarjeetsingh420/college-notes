@@ -1,0 +1,28 @@
+looping and itration in js
+-it hellp us to do the tasks untile the spesfide condition is true:
+advantages of loops:
+-reduse code repetition
+-save prgraming time;
+-make program essier to understand
+-exucute mulltiple time autometically
+js support the following loops:
+-for loops
+-while loop
+-do...while looping
+-for...of loop
+-for...in loop
+syntax:
+for(initiation;condition;increasement){
+    //statement
+}
+itrative programing
+-set of repeted instrantion to solve the problem
+
+hw
+-print even num from 1 to 20
+-print odd num from 1 to 50
+-calc the sum of first 20 natural num
+-find the factorial of a num entered by user
+
+hof(higer-order function)
+-a function work with other function
